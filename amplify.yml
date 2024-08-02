@@ -5,11 +5,10 @@ frontend:
       commands:
         - nvm use 20
         - npm install
-        - mv ./node_modules ./.amplify-hosting/compute/default/node_modules
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: .amplify-hosting
+    baseDirectory: .
     files:
       - '**/*'
