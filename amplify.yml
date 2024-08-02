@@ -5,6 +5,7 @@ frontend:
       commands:
         - nvm use 20
         - npm install
+        - mv ./node_module ./.amplify-hosting/compute/default/node_modules
     build:
       commands:
         - npm run build
