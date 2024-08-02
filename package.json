@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "build": "npm install",
-    "serve": "node .amplify-hosting/compute/default/server.js"
+    "serve": "node ./compute/default/server.js"
   },
   "author": "",
   "license": "ISC",
