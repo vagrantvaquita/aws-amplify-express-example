@@ -2,9 +2,8 @@
   "name": "amplify-express-example",
   "version": "1.0.0",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "build": "NODE_PATH=.amplify-hosting/compute/default/ npm install",
+    "build": "npm install",
     "serve": "node .amplify-hosting/compute/default/server.js"
   },
   "author": "",
