@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - nvm use 18
+        - nvm use lts
         - npm install
     build:
       commands:
