@@ -5,6 +5,10 @@ frontend:
       commands:
         - nvm use 20
         - npm install
+        - >-
+          mv
+          node_modules
+          compute/default/node_modules
     build:
       commands:
         - npm run build
